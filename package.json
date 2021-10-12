@@ -1,14 +1,25 @@
 {
-  "name": "static-site",
+  "name": "cool-readme-propagator",
   "version": "1.0.0",
-  "description": "",
+  "description": "readme propagator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrissieSparling/cool-readme-propagator.git"
+  },
+  "keywords": [
+    "cool"
+  ],
+  "author": "chrissie sparling",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrissieSparling/cool-readme-propagator/issues"
+  },
+  "homepage": "https://github.com/ChrissieSparling/cool-readme-propagator#readme",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^8.2.0"
   }
 }
