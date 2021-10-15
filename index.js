@@ -1,8 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer')
 const fs = require('fs')
-const generateMarkdown = require('./utils/generateMarkdown');
-
+const generateMarkdown = require('./utils/generateMarkdown').default;
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -40,7 +39,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "if applicable please select a registered license?",
-        choices: ["Mozilla", "MIT", "Apache", "ISC", "no License needed"]
+        choices: ["Mozilla", "MIT", "Apache", "ISC", "no License required"]
     },
     {
         type: "input",
@@ -50,7 +49,7 @@ const questions = [
     {
         type: "input",
         name: "github",
-        message: "what is git hub information?"
+        message: "what is your github information?"
     },
     {
         type: "input",
@@ -69,8 +68,6 @@ const questions = [
 function init() {
     // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {}
-
-    
     inquirer.prompt(questions).then(function(inquireResponse){
         fs.writeFileSync("README.md", generateMarkdown(inquireResponse))
     })
