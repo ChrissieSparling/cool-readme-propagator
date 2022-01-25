@@ -1,6 +1,6 @@
-# hhl
+# This is MY BIG FAT APP
     
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)    
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)    
     
 ## Table of Contents 
 - [Description](#description)
@@ -11,24 +11,24 @@
 - [Additional Info](#additional-info)
    
 ## Description:
-adfasd
+as A user I want to open this app and be greeted with a compliment to start my day with
     
 ## Installation:
-adfasdf
+requires inquirer
     
 ## Usage:
-asdfasdf
+this app will have minimal brower usage but lots of value to your self-esteem
     
     
 ## Contribution:
-asdfasd
+over time I am sure there will be many people who will contribute, but for now it is only me.
    
 ## Testing:
-adsfd
+no tests will be required at this time but there is a testing style document involved
 
 ## License:
-GNU
+Apache
 
 ## Additional Info:
-- Github Profile: ['asdfs](https://github.com/'asdfs)
-- Email me @ adf 
+- Github Profile: [chrissiesparling](https://github.com/chrissiesparling)
+- Email me @ gigglewrks@aol.com 
