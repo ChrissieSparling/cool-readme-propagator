@@ -1,4 +1,5 @@
-# adf
+# Cool-ReadMe Propagator
+this is a terminal command generated readme application.
     
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)    
     
@@ -11,24 +12,17 @@
 - [Additional Info](#additional-info)
    
 ## Description:
-adfa
+terminal command readme generator
     
 ## Installation:
-adf
-    
-## Usage:
-a
-    
-    
-## Contribution:
-d
-   
-## Testing:
-d
+run npm i to get all the node dependancies
+run node server.js to run the terminal commands
+answer the questions
 
-## License:
-GNU
+## links to the site:
+https://github.com/ChrissieSparling/cool-readme-propagator
 
 ## Additional Info:
-- Github Profile: [adf](https://github.com/adf)
-- Email me @ adfgfd 
+
+- [snippet] (./snippet/readme-snip.png)
+- walk through video https://watch.screencastify.com/v/vUOM9jkpkIwty61aLFUm
